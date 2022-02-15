@@ -1,4 +1,4 @@
 
-def add(name){
-echo "hi ${name}, how are you?"
+def call(name){
+  sh 'docker build -t ${name} .
 }
