@@ -1,4 +1,4 @@
 
 def call(name){
-  sh 'docker build -t ${name} .'
+  sh "docker ${name} -t ankamkrishnakanth/krish:$BUILD_ID ."
 }
